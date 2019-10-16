@@ -3,4 +3,3 @@ obj/
 appsettings.json
 *.db
 node_modules/
-.vscode
