@@ -19,9 +19,9 @@ namespace API.Controllers
         }
 
 
-        //GET api/posts
+
         /// <summary>
-        /// 
+        /// GET api/posts 
         /// </summary>
         /// <returns>A list of posts</returns>
         [HttpGet]
