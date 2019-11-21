@@ -15,7 +15,7 @@ const PostListItem = props => {
         history.push(`/posts/${slug}`);
     }
 
-    handleEditPost = post => {
+    const handleEditPost = post => {
         editPost(post);
         history.push(`/edit-post/${post.id}`);
     };

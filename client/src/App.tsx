@@ -83,6 +83,10 @@ class App extends React.Component {
           <header className="App-header">
             BlogBox
           </header>
+          <nav>
+            <Link to="/">Home</Link>
+            <Link to="/new-post">New Post</Link>
+          </nav>
           <main className="App-content">
             <Switch>
               <Route exact path="/">
