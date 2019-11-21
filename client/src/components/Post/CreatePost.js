@@ -4,7 +4,6 @@ import uuid from "uuid";
 import moment from "moment";
 import {useHistory} from "react-router-dom";
 import "./styles.css";
-import { getOuterBindingIdentifiers } from "@babel/types";
 
 const CreatePost = ({onPostCreated}) => {
     let history = useHistory();
